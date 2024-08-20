@@ -1,0 +1,29 @@
+   <section id="product_cantent">
+        <div class="blog_page">
+            <div class="container">
+                <div class="blog_page_count">
+                    <div class="your_order_bloge">
+                        <div class="your_order_blog_count">
+                            <div class="your_has_been">
+                                <div class="your_has_been_count">
+                                    <h1>Your Order has been Received</h1>
+                                </div>
+                                <div class="has_been_img">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="thankyou_loog">
+                                    <h2>Thankyou for your purchases!</h2>
+                                    <p>Your order ID is : <?php echo $order->order_unique_id ?></p>
+                                    <p>Total : <?php echo $order->total_amount.' '.'AED' ?></p>
+                                    <p>You will receive an order confirmation email with details of your order</p>
+                                </div>
+                                <div class="blog_button">
+                                    <button><a href="<?php echo base_url('shop'); ?>">Done</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
